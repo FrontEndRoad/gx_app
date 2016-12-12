@@ -1,0 +1,13 @@
+<view class="title">我的音乐</view>
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{nameArr}}" class="mucPick">
+  <view class="picker">
+    选择你喜欢的音乐 {{array[index]}}
+  </view>
+</picker>
+
+<audio poster="{{mucArr[index].poster}}" name="{{mucArr[index].name}}" author="{{mucArr[index].author}}" src="{{mucArr[index].src}}" id="myAudio" class="myAudio" controls loop></audio>
+<button type="default" bindtap="audioPlay" class="musicBtn" size="mini">播放</button>
+<button type="default" bindtap="audioPause" class="musicBtn" size="mini">暂停</button>
+<view></view>
+<button type="default" bindtap="audio2 "class="musicBtn" size="mini">设置当前当前播放时间为2秒</button>
+<button type="default" bindtap="audioStart" class="musicBtn" size="mini">回到开头</button>

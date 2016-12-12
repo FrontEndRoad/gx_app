@@ -1,0 +1,26 @@
+<view class="title mt20">我的视频</view>
+
+<view class="vidDiv">
+<scroll-view class="vidScr" scroll-x="true" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-left="{{scrollLeft}}">
+  <radio-group class="group" bindchange="radioChange">
+    <view class="label-2" wx:for="{{radioItems}}">
+      <radio id="{{item.name}}" hidden value="{{item.name}}" checked="{{item.checked}}"></radio>
+      <view class="ico">
+          <icon type="{{iconType[7]}}" size="{{iconSize[0]}}" style="opacity:{{item.checked?1:0}}" />
+      </view>
+      <label class="label-2__text" for="{{item.name}}"><text>{{item.name}}</text></label>
+    </view>
+  </radio-group>
+</scroll-view>
+</view>
+
+<view class="section tc">
+  <video id="myVideo" class="myVideo" src="{{videoSrc}}" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  <view class="btn-area">
+    <button bindtap="bindButtonTap" class="videoBtn">更换视频</button>
+    <input bindblur="bindInputBlur" class="tmIpt" placeholder="输入弹幕内容" />
+    <button bindtap="bindSendDanmu" class="videoBtn sendBtn">发送弹幕</button>
+  </view>
+</view>
+
+

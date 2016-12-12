@@ -1,0 +1,10 @@
+.mt10 { margin-top: 10px; }
+
+.perImg { display: block; width: 96%; margin: 6px auto 0; border: 1px solid #ddd; }
+
+.mySource { margin: 10px auto; width: 99%; }
+.perNav { display: inline-block; margin: 0 3px 3px; }
+
+.perLef { float: left; width: 120px; text-align: right; font-weight: bold; }
+.perGzh { width: 120px; height: 120px;  }
+

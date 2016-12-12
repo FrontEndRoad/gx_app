@@ -1,0 +1,45 @@
+<view class="title">我的主页</view>
+<view class="personal">
+    <view>
+        <image src="../../images/1.jpg"  class="perImg" />
+    </view>
+
+    <view class="mySource">
+        <navigator class="perNav" url="../music/music">
+            <button size="mini">音乐</button>
+        </navigator>
+
+        <navigator class="perNav" url="../video/video">
+            <button size="mini">视频</button>
+        </navigator>
+
+        <navigator class="perNav" url="../map/map">
+            <button size="mini">位置</button>
+        </navigator>
+
+        <navigator class="perNav" url="../record/record">
+            <button size="mini">录音</button>
+        </navigator>
+
+        <navigator class="perNav" url="../photo/photo">
+            <button size="mini">相册</button>
+        </navigator>        
+
+        <navigator class="perNav" url="../canvas/canvas">
+            <button size="mini">画布</button>
+        </navigator>
+
+        <navigator class="perNav" url="../network/network">
+            <button size="mini">网络</button>
+        </navigator>   
+
+        <navigator class="perNav" url="../orientation/orientation">
+            <button size="mini">重力感应</button>
+        </navigator>   
+    </view>
+
+    <view class="perItem">
+        <view class="perLef">个人公众号：</view>
+        <image src="../../images/e1.jpg" class="perRig perGzh"  />
+    </view>
+</view>

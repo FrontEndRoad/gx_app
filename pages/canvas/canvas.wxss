@@ -1,0 +1,4 @@
+.canvas { display: block; width: 210px; height: 210px; margin: 10px auto 0; }
+.upBtn { width: 120ppx; margin: 10px auto;  }
+.showImg { width: 90%; margin: 0 auto; overflow: hidden; }
+    .sImg { width: 300px; height: 300px; }

@@ -1,0 +1,8 @@
+<view class="title">我的画布</view>
+<!-- canvas.wxml -->
+<canvas class="canvas" width="200" height="200" canvas-id="firstCanvas" disable-scroll="{{disableScroll}}" binderror="canvasIdErrorCallback"></canvas>
+
+<button class="upBtn" size="mini" bindtap="upImg">点我传图</button>
+<view class="showImg">
+    <image src="{{imgSrc}}" class="sImg"></image>
+</view>

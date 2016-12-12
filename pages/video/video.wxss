@@ -1,0 +1,33 @@
+.vidDiv { width: 100%; overflow-x: scroll; }
+.vidScr { width: 155%; height: 46px; }
+
+.myVideo { display: block; width: 70%; height: 225px; margin: 10px auto 0; }
+.tmIpt { width: 60%; padding: 0 1%; height: 30px; font-size: 0.8rem; border: 1px solid #ccc; margin-left: 22px; border-radius: 3px; display: inline-block; vertical-align: middle; }
+.videoBtn { width: 72%; margin: 10px auto; display: block; }
+.sendBtn { display: inline-block; width: 90px; height: 32px; line-height: 32px; margin-left: 6px; vertical-align: middle; font-size: 16px; }
+
+.ico { display: inline-block; width: 18px; height: 18px; margin-right: 2px; overflow: hidden; vertical-align: middle; }
+
+.label-2 { display: inline-block; padding: 6px 8px;  }
+.label-2__text { display: inline-block; vertical-align: middle; }
+
+.label-2__icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+    width: 18px;
+    height: 18px;
+    background: #fcfff4;
+    border-radius: 50px;
+}
+
+.label-2__icon-checked {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 12px;
+    height: 12px;
+    background: #1aad19;
+    border-radius: 50%;
+}

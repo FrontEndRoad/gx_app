@@ -1,0 +1,6 @@
+.register { width: 80%; margin: 100px auto 0; } 
+    .input {  padding: 3px 5px; height: 28px; border: 1px solid #ccc; border-radius: 3px; margin-bottom: 15px; font-size: 0.8rem; }
+    .reg-btn,.reset-btn { height: 36px; margin: 6px 0; line-height: 36px; background: #333; color: #fff; }
+    .reset-btn { background: #ccc; }
+    .quickLog { font-size: 0.8rem; color: #888; padding-top: 8px; }
+

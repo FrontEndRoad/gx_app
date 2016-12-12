@@ -1,0 +1,3 @@
+<import src="/pages/template/list.wxml" />
+<view class="title">互动类</view>
+<template is="defaultList" data="{{lists}}"></template>
